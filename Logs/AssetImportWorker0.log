@@ -209,3 +209,77 @@ Received Import Request.
   path: Assets/windows-xp-remains-the-most-used-os-during-april-1.jpg
   artifactKey: Guid(a55ef5b007a7eb94fb2d3e6e53c6bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/windows-xp-remains-the-most-used-os-during-april-1.jpg using Guid(a55ef5b007a7eb94fb2d3e6e53c6bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ae2701341c159e209a125373f4a57b') in 0.354330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.924863 seconds.
+  path: Assets/Splash.png
+  artifactKey: Guid(4841752ed7676af4193c80dfb1b479a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Splash.png using Guid(4841752ed7676af4193c80dfb1b479a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a3fb2c1b0f46b1ee091e0146f3999a') in 0.006168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.783710 seconds.
+  path: Assets/MainMenu.unity
+  artifactKey: Guid(56957f322ec90d441b8db37ecf3adb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu.unity using Guid(56957f322ec90d441b8db37ecf3adb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb885fb9222e341088f75f83ca473fda') in 0.000602 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000804 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x2a1887000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.548 seconds
+Domain Reload Profiling:
+	ReloadAssembly (548ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (26ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (23.0 KB). Loaded Objects now: 2672.
+Memory consumption went from 200.0 MB to 199.9 MB.
+Total: 4.450333 ms (FindLiveObjects: 0.062750 ms CreateObjectMapping: 0.028333 ms MarkObjects: 4.345084 ms  DeleteObjects: 0.013667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
